@@ -26,5 +26,5 @@ jobs:
         with:
           workflow: do-something.yml
           inputs: '{"foo":"1","bar":"2"}'
-          channel: my-ci
+          channel: private-taketani
           slack-bot-token: ${{ secrets.SLACK_BOT_TOKEN }}
